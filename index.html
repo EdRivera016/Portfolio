@@ -1,60 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/style.css" >
-    <title>Edwin Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edwin's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-
-    <header class="header">
-        <h1>Edwin Rivera</h1>
-        <nav class="nav-bar">
+    <!-- header and nav section start -->
+    <header>
+        <div><h1>Edwin Rivera</h1></div>
+        <nav>
             <ul>
-                <a href="#about me">About Me</a>
-
-                <a href="#projects">Projects</a>
-                
-                <a href="#contact me">Contact Me</a>
-                
+                  <a href="#about-me">About Me</a>
+                  <a href="#projects">projects</a>
+                  <a href="#contact">Contact</a>
             </ul>
         </nav>
     </header>
 
-<figure class="hero">
+    <!-- hero image section start -->
+    <section class="hero">
+            <img src="c:\Users\Edwin\bootcamp\homework\Portfolio-\assets\images\picofself.jpg" alt="A picture of Edwin">
+    </section>
 
-    <main>
-         <section id="about-me">
-            <h2 id="context-head">About Me</h2>
-            <article id="context-text">
+    <!-- about me section start -->
+    <section id="about-me" class="about-me">
+        <article class="title">
+            <h2>About Me</h2>
             <p>
-                My name is Edwin Rivera and im a UCF full stack 
-            coding bootcamp student. Looking to get into the
-            software engineer industry. Below i have some of 
-            the work i've done on projects that I've put my all in it.
+              My name is Edwin Rivera and im a UCF full stack coding bootcamp student. Looking to get into software engineer industry. Below i have some of the projects i've worked on, I've put my all in it.
             </p>
-            </article>
-            <img id="context-img" src="assets/images/picofself.jpg" alt="picture of Edwin Rivera">
-        </section>
-        
-        <section id="projects">
-            <h3 id="projecthead">Projects</h3>
-            <div class="project-container over-container">
+        </article>
+    </section>
 
-                <a href="https://github.com/EdRivera016/Horiseon.git"> <img src="assets/images/deployed page.png"></a>
-                <h1 class="over">Horiseon</h1>
-            </div>
-            <article>
-                <figure class="project-container over-container"><a href="#"><img src="assets/images/loading.png" alt="loading">
+    <!-- my work section start -->
+    <section id="projects" class="projects">
+        <article class="title"><h2>Projects</h2>
+        <div class = "projects-grid-wrapper">
+            <div class="projects-grid">
+
+                <a href= "https://edrivera016.github.io/Horiseon/" target="_blank" class="horiseon refactor">
+                    <section class="project-label">
+                        <h3>Horiseon refactor</a>
                 </a>
-
-                </figure>
-            </article>    
-        </section>
-    </main>
+                <a href="#" target="_blank" class="project-2">
+                    <div class="project-label">
+                        <h3>Project 2</h3>
+                        <p>Loading..</p>
+                </a>
+                <a href="#" target="_blank" class="project-3">
+                    <div class="project-label">
+                        <h3>project 3</h3>
+                        <p>Loading..</p>
+                </a>
+                <a href="#" target="_blank" class="project=4">
+                    <div class="project-label">
+                        <h3>Project 4</h3>
+                        <p>Loading..</p>
+                </a>
+                <a href="#" target="_blank"  class="project-5">
+                    <div class="project-label">
+                        <h3>Project 5</h3>
+                        <p>Loading..</p>
+                </a>
+        </div>
+    </section>
 </body>
 
 <footer>
