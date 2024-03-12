@@ -1,25 +1,23 @@
-/* color variables for easier to remember names */
 :root {
     --primary: #ffffffbc;
     --secondary: #505050;
     --pop: #000000;
 }
 
-/* remove default CSS styling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* general settings for all body styling */
+/* general */
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: var(--primary);
     background-color: var(--secondary);
 }
 
-/* header styling start */
+/* header  */
 header {
     background-color: var(--primary);
     display: flex;
@@ -67,7 +65,7 @@ header nav ul a:hover {
 }
 
 
-/* hero styling start */
+/* hero */
 .hero {
     background-image: url("../images/portfoliobackground.jpg");
     height: 600px;
@@ -93,7 +91,7 @@ header nav ul a:hover {
 .hero .quote #quote-text {
     font-size: 48px;
 }
-/* */
+
 .title {
     border-right: 5px solid var(--pop);
     min-height: 100%;
@@ -172,21 +170,21 @@ header nav ul a:hover {
 }
 
 a.project-2 {
-    background-image: url("../images/loading.png");
+    background-image: url("assets/images/uploadimage.webp");
     background-position: 50% 15%;
 }
 
 a.project-3 {
-    background-image: url("../images/loading.png");
+    background-image: url("assets/images/uploadimage.webp");
     background-position: 60% 50%;
 }
 
 .project-4 {
-    background-image: url("../images/loading.png");
+    background-image: url("assets/images/uploadimage.webp");
 }
 
 .project-5 {
-    background-image: url("../images/loading.png");
+    background-image: url("assets/images/uploadimage.webp");
 }
 
 .project-label {
@@ -195,7 +193,6 @@ a.project-3 {
     padding: 10px;
 }
 
-/* contact me section styling start */
 footer {
     display: flex;
     justify-content: space-between;
@@ -242,9 +239,9 @@ footer ul li a:hover {
     color: var(--primary);
     border-radius: 15px;
 }
-/* contact me section styling end */
 
-/* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
+
+/* MEDIA QUERY*/
 @media screen and (max-width: 768px) {
     .hero {
         font-size: 28px;
@@ -266,7 +263,7 @@ footer ul li a:hover {
     }
 }
 
-/* MEDIA QUERY FOR MOBILE PHONE SCREENS AND SMALLER */
+/* MEDIA QUERY */
 @media screen and (max-width: 575px) {
     header {
         justify-content: center;
@@ -301,7 +298,7 @@ footer ul li a:hover {
         padding: 15px;
     }
 
-    .my-work {
+    .projects {
         flex-direction: column;
         padding: 30px 0;
     }
