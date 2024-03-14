@@ -43,7 +43,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Deployed Page
 
-add here the deployed page
+add here the deployed page url
 
 https://github.com/EdRivera016/Portfolio-
 
@@ -51,3 +51,4 @@ https://github.com/EdRivera016/Portfolio-
 * References from https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Advanced_styling_effects
 
 ## License
+MIT license

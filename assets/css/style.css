@@ -3,21 +3,19 @@
     --secondary: #505050;
     --pop: #000000;
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* general */
+/*Body*/
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: var(--primary);
     background-color: var(--secondary);
 }
 
-/* header  */
+/*Header and Nav*/
 header {
     background-color: var(--primary);
     display: flex;
@@ -65,7 +63,7 @@ header nav ul a:hover {
 }
 
 
-/* hero */
+/*Hero*/
 .hero {
     background-image: url("../images/portfoliobackground.jpg");
     height: 600px;
@@ -85,13 +83,14 @@ header nav ul a:hover {
     display: flex;
     justify-content: end;
     text-align: right;
-    color: lightgray;
+    color: rgb(0, 119, 254);
 }
 
 .hero .quote #quote-text {
     font-size: 48px;
 }
 
+/*Main*/
 .title {
     border-right: 5px solid var(--pop);
     min-height: 100%;
@@ -104,8 +103,6 @@ header nav ul a:hover {
 .title h2 {
     font-size: 48px;
 }
-
-/*Main*/
 
 .about-me {
     display: flex;
@@ -132,7 +129,7 @@ header nav ul a:hover {
     color: var(--secondary);
 }
 
-.projects-grid-wrapper {
+.projects-wrapper {
     width: 80%;
     height: 500px;
     display: flex;
@@ -166,33 +163,32 @@ header nav ul a:hover {
 .horiseon.refactor {
     grid-column: 1/3;
     grid-row: span 2;
-    background-image: url("../images/deployed%20%page.png");
+    background-image: url("../images/horiseon.jpg");
 }
 
 a.project-2 {
-    background-image: url("assets/images/uploadimage.webp");
+    background-image: url("../images/loading.png");
     background-position: 50% 15%;
 }
 
 a.project-3 {
-    background-image: url("assets/images/uploadimage.webp");
+    background-image: url("../images/loading.png");
     background-position: 60% 50%;
 }
 
 .project-4 {
-    background-image: url("assets/images/uploadimage.webp");
+    background-image: url("../images/loading.png");
 }
 
 .project-5 {
-    background-image: url("assets/images/uploadimage.webp");
+    background-image: url("../images/loading.png");
 }
 
 .project-label {
-    background-color: var(--secondary);
-    color: var(--primary);
+    color: var(--secondary);
     padding: 10px;
 }
-
+/*Footer*/
 footer {
     display: flex;
     justify-content: space-between;
@@ -241,7 +237,7 @@ footer ul li a:hover {
 }
 
 
-/* MEDIA QUERY*/
+/*Media query*/
 @media screen and (max-width: 768px) {
     .hero {
         font-size: 28px;
@@ -263,7 +259,7 @@ footer ul li a:hover {
     }
 }
 
-/* MEDIA QUERY */
+/*media query*/
 @media screen and (max-width: 575px) {
     header {
         justify-content: center;
