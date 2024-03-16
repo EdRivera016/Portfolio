@@ -68,7 +68,7 @@ header nav a:hover {
     background-image: url("../images/portfoliobackground.jpg");
     height: 600px;
     background-size: cover;
-    background-position: center;
+    background-position: center;  
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -156,37 +156,32 @@ header nav a:hover {
 .project:hover {
     opacity: 1.0;
 }
-
-.horiseon.refactor {
-    background-image: url("assets/images/horiseon.jpg");
-    grid-column: 1/3;
+.horiseon {
+    grid-column: 1 / 3;
     grid-row: span 2;
+    background-image: url("../images/horiseonwebpage.png");
 }
-
 a.project-2 {
     background-image: url("../images/loading.png");
-    background-position: 50% 15%;
+    background-position: 50%;
 }
-
 a.project-3 {
     background-image: url("../images/loading.png");
-    background-position: 60% 50%;
+    background-position: 60%;
 }
-
 a.project-4 {
     background-image: url("../images/loading.png");
     background-position: 50%;
 }
-
 a.project-5 {
     background-image: url("../images/loading.png");
+    background-position: 50%;
 }
-
 .project-label {
+    background-color: var(--primary);
     color: var(--secondary);
     padding: 10px;
 }
-
 /*Footer*/
 footer {
     display: flex;
