@@ -45,6 +45,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 https://edrivera016.github.io/Portfolio/
 
+git@github.com:EdRivera016/Portfolio.git
+
 ## Contributions 
 * References from https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Advanced_styling_effects
 
