@@ -33,7 +33,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Website Page Screenshot
 
-![Screenshot page] 
+![Deployed Page](assets/images/deployedpage.png)
 
 ## Comments
 * Built a professional portfolio website.
